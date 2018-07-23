@@ -10,7 +10,7 @@
       "assets": [
         "assets"
       ],
-      "index": "index1.html",
+      "index": "index.html",
       "main": "main.ts",
       "polyfills": "polyfills.ts",
       "test": "test.ts",
@@ -21,7 +21,10 @@
         "styles.css",
         "../node_modules/bootstrap/dist/css/bootstrap.min.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../src/app/scripts/jquery.min.js",
+        "../src/app/scripts/site.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
